@@ -1,9 +1,8 @@
 #!/bin/bash
 
-if [[ "$1" == "--date" ]]; then
-	date +"Dzisiaj jest %A, %d, %B, %Y"
-else
-	exit 1
+if [[ "$1" == "--help" ]]; then
+	echo "Mozna uzyc pliku skrypt.sh z flagami --date, --logs, --logs 30"
+	exit 0
 fi
 
 
